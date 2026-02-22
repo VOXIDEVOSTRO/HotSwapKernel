@@ -1,4 +1,3 @@
-# Modularus
+# Modularus Kernel
 
-A hyper modular kernel which can simply change its internals at runtime!
-Research Kernel
+Modularus is a research operating system kernel implementing a fully dynamic, hyper-modular architecture in which all subsystems can be replaced at runtime. Kernel components communicate through a unified VFS-based interface extending the “everything is a file” design philosophy. The architecture does not conform strictly to monolithic, microkernel, or exokernel models, instead forming a self-bootstrapped, structurally reconfigurable system. 
